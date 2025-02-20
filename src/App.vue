@@ -5,5 +5,10 @@
 </template>
 
 <script lang="ts" setup>
-  //
 </script>
+
+<style lang="scss">
+.v-field--variant-solo, .v-field--variant-solo-filled {
+  box-shadow: none !important;
+}
+</style>

@@ -76,6 +76,12 @@ export default defineConfig({
       sass: {
         api: 'modern-compiler',
       },
+      scss: {
+        additionalData: `
+          @use "@/styles/general.scss" as *;
+          @use "@/styles/variables.scss" as *;
+        `,
+      }
     },
   },
 })
